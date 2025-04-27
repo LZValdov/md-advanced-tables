@@ -362,6 +362,14 @@ These methods can be mixed.
 <!-- TBLFM: @5$3=sum(@2) -->
 ```
 
+Note that when working with Math operations it is required to use multiple lines.
+
+```md
+<!-- TBLFM: @7$4=(@5$3*@5$1) -->
+<!-- TBLFM: @7$4=(@7$4+@6$3) -->
+<!-- TBLFM: @7$4=(@7$4+@7$3) -->
+```
+
 ## Formatting Options
 
 You can optionally request the result be output with a certain number of
